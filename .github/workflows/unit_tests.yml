@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python: [3.7, 3.8, 3.9]
+        python: ['3.7', '3.8', '3.9', '3.10', '3.11']
         django_version: [22, 30, 40]
         exclude:
           - python: 3.7
